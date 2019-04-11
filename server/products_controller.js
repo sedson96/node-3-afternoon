@@ -14,7 +14,7 @@ function getOne(request,response) {
     .then(result => response.json(result))    
     .catch(error => {
         response.status(500).json("an error occured")
-        // console.log(error)
+        console.log(error)
         })
 }
 function getAll(request,response) {
@@ -23,7 +23,7 @@ function getAll(request,response) {
     .then(result => response.json(result))
     .catch(error => {
         response.status(500).json("an error occured")
-        // console.log(error)
+        console.log(error)
         })
 }
 function update(request,response) {
@@ -32,7 +32,7 @@ function update(request,response) {
     .then(result => response.json(result))
     .catch(error => {
         response.status(500).json("an error occured")
-        // console.log(error)
+        console.log(error)
         })
 }
 function remove(request,response) {
@@ -41,7 +41,7 @@ function remove(request,response) {
     .then(result => response.json(result))
     .catch(error => {
         response.status(500).json("an error occured")
-        // console.log(error)
+        console.log(error)
         })
 }
 
